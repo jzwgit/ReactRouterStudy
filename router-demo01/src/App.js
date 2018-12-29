@@ -13,12 +13,13 @@ import AnimationExample from './demo09.js';
 import AmbiguousExample from './demo10.js';
 import RouteConfigExample from './demo11.js';
 import ModalGallery from './demo12.js';
+import StaticRouterExample from './demo13.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-	<ModalGallery />
+	<StaticRouterExample />
       </div>
     );
   }
