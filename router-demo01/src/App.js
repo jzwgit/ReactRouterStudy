@@ -14,12 +14,13 @@ import AmbiguousExample from './demo10.js';
 import RouteConfigExample from './demo11.js';
 import ModalGallery from './demo12.js';
 import StaticRouterExample from './demo13.js';
+import ParamsExample1 from './demo14.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-	<StaticRouterExample />
+	<ParamsExample1 />
       </div>
     );
   }
